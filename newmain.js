@@ -8,7 +8,8 @@ let loadImage=(src, callback) => {
 };
 
 let imagePath = (frameNumber, animation) => {
-    return ("https://github.com/meghanaayyala/meghanaayyala.github.io/tree/main/images/" + animation + "/" + frameNumber + ".PNG?raw=true");
+    return ("https://raw.githubusercontent.com/meghanaayyala/meghanaayyala.github.io/main/images/" + animation + "/" + frameNumber + ".png");
+    
     
 };
 
